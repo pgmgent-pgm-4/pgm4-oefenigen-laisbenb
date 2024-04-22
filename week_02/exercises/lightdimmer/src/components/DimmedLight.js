@@ -3,12 +3,12 @@ import Light from './Light'
 import Dimmer from './Dimmer'
 
 export default function DimmedLight() {
-    const [dimPercentge, setDimPercentage] = useState(100);
+    const [dimPercentage, setDimPercentage] = useState(100);
 
   return (
     <div>
-        <Light dimPercentge={dimPercentge} />
-        <Dimmer dimPercentge={dimPercentge} setDimPercentage={setDimPercentage} />
+        <Light dimPercentage={dimPercentage} />
+        <Dimmer dimPercentage={dimPercentage} setDimPercentage={setDimPercentage} />
     </div>
   );
 }
