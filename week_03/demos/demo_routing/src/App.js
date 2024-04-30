@@ -6,7 +6,7 @@ import { ROUTES } from "./routes/routes";
 
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path='/' element={<Root />} errorElement={<NotFound />} >
+  <Route path='/' element={<Root />} errorElement={<NotFound />} >  
     <Route path={ROUTES.home.path} element={<Home />} />
     <Route path={ROUTES.about.path} element={<About />} />
     <Route path={ROUTES.contact.path} element={<Contact />} />
